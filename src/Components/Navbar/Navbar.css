@@ -1,0 +1,51 @@
+.navbar {
+    background-color: gray;
+    display: block;
+}
+
+.navbar-brand {
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+    color:black;
+    margin-left: 10px;
+}
+
+.navbar-about {
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+}
+
+.SearchButton {
+    float: right;
+    height: 40px;
+    width: 100px;
+    margin-top: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.SearchBar {
+    float: right;
+    height: 40px;
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 15pt;
+}
+
+.SearchButton:focus {
+    outline: none;
+}
+
+.SearchBar:focus {
+    outline: none;
+}
+
+.SearchButton:hover {
+    background-color: darkgray;
+}
