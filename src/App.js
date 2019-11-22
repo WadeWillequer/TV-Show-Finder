@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Components/Navbar/Navbar';
 import Card from './Components/Card/Card';
+import TvShowSearcher from './Components/TvShowSearcher/TvShowSearcher';
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <Card/>
+      <TvShowSearcher/>
     </div>
   );
 }

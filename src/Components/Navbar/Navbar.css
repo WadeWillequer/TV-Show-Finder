@@ -28,7 +28,6 @@
 }
 
 .SearchBar {
-    float: right;
     height: 40px;
     width: 300px;
     margin-right: 10px;
@@ -37,6 +36,11 @@
     border: 1px solid black;
     font-size: 15pt;
 }
+
+.Form {
+    float:right;
+}
+
 
 .SearchButton:focus {
     outline: none;
